@@ -2,3 +2,4 @@
 localhost.pem
 localhost.key
 .vscode/settings.json
+node_modules

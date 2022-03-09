@@ -7,7 +7,8 @@
         <title>GeoAR.js demo</title>
         <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
         <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
-        <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+        <!-- <script src="https://localhost:5100/arjs"></script> -->
+        <script type="text/javascript" src="public/js/ar.js"></script>
     </head>
 
     <body style="margin: 0; overflow: hidden">
@@ -22,7 +23,7 @@
             <a-assets>
                 <a-asset-item id="cityModel" src="foot.glb"></a-asset-item>
               </a-assets>
-              <a-entity gltf-model="#cityModel" modify-materials gps-entity-place="latitude: 51.44083142926909; longitude: 5.472730893932009;" ></a-entity>
+              <a-entity gltf-model="#cityModel" modify-materials gps-entity-place="latitude: 51.45220343027231; longitude: 5.453638274511695;" ></a-entity>
 
             </a-entity>
             <a-camera
